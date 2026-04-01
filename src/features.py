@@ -1,6 +1,6 @@
 import pandas as pd
-import time
-import os
+# import time
+# import os
 
 def categorize_game_speed(duration):
     if duration < 30:
@@ -10,6 +10,6 @@ def categorize_game_speed(duration):
     else:
         return "Late"
     
-def add_game_features(df):
+def add_game_features(df: pd.DataFrame) -> pd.DataFrame:
     df["game_speed_categorize"] = df["duration"].apply(categorize_game_speed)
     return df
