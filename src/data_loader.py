@@ -26,6 +26,23 @@ def get_match_detail(match_id):
     response.raise_for_status()
     return response.json()
 
+def get_picks_bans(match_id):
+    data = get_match_detail(match_id)
+    picks_bans = data.get("picks_bans", [])
+    
+    result = []
+    for pb in picks_bans:
+        if pb.get("is_pick"):
+            result.append({
+                "match_id": match_id,
+                "hero_id": pb.get("hero_id"),
+                "team": "radiant" if pb.get("team") == 0 else "dire",
+                "radiant_win": data.get("radiant_win"),
+                "radiant_team_id": data.get("radiant_team_id"),
+                "dire_team_id": data.get("dire_team_id")
+            })
+    return result   
+    
 def find_league_by_name(keyword, leagues_df):
     result = leagues_df[
         leagues_df["name"].str.contains(keyword, case=False, na=False)
