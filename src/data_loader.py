@@ -41,7 +41,13 @@ def get_picks_bans(match_id):
                 "radiant_team_id": data.get("radiant_team_id"),
                 "dire_team_id": data.get("dire_team_id")
             })
-    return result   
+    return result
+
+def get_hero_list():
+    url = f"{BASE_URL}/heroes"
+    response = requests.get(url)
+    response.raise_for_status()
+    return pd.DataFrame(response.json())[["id", "localized_name", "primary_attr"]]   
     
 def find_league_by_name(keyword, leagues_df):
     result = leagues_df[
