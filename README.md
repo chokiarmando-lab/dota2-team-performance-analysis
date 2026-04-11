@@ -96,8 +96,7 @@ The data used in this project includes:
 ---
 
 ## Sample Visualization
-
-![Hero Meta](images/hero_scatter.png)
+![Winrate per Tournament](data\img\winrate_rate_per_tour.png)
 
 ---
 
