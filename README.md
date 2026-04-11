@@ -96,7 +96,7 @@ The data used in this project includes:
 ---
 
 ## Sample Visualization
-![Winrate per Tournament](data\img\winrate_rate_per_tour.png)
+![Winrate per Tournament](winrate_rate_per_tour.png)
 
 ---
 
