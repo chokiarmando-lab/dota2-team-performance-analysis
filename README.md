@@ -81,8 +81,7 @@ Tracked win rate per team across 7 tournaments to identify which teams perform c
 
 ```bash
 git clone https://github.com/chokiarmando-lab/dota2-team-performance-analysis.git
-cd dota2-analysis
-pip install -r requirements.txt
+cd dota2-team-performance-analysis
 jupyter notebook
 ```
 
