@@ -1,0 +1,128 @@
+hero_id,hero_name,primary_attr
+1,Anti-Mage,agi
+2,Axe,str
+3,Bane,all
+4,Bloodseeker,agi
+5,Crystal Maiden,int
+6,Drow Ranger,agi
+7,Earthshaker,str
+8,Juggernaut,agi
+9,Mirana,agi
+10,Morphling,agi
+11,Shadow Fiend,agi
+12,Phantom Lancer,agi
+13,Puck,int
+14,Pudge,str
+15,Razor,agi
+16,Sand King,all
+17,Storm Spirit,int
+18,Sven,str
+19,Tiny,str
+20,Vengeful Spirit,agi
+21,Windranger,all
+22,Zeus,int
+23,Kunkka,str
+25,Lina,int
+26,Lion,int
+27,Shadow Shaman,int
+28,Slardar,str
+29,Tidehunter,str
+30,Witch Doctor,int
+31,Lich,int
+32,Riki,agi
+33,Enigma,all
+34,Tinker,int
+35,Sniper,agi
+36,Necrophos,int
+37,Warlock,int
+38,Beastmaster,all
+39,Queen of Pain,int
+40,Venomancer,all
+41,Faceless Void,agi
+42,Wraith King,str
+43,Death Prophet,all
+44,Phantom Assassin,agi
+45,Pugna,int
+46,Templar Assassin,agi
+47,Viper,agi
+48,Luna,agi
+49,Dragon Knight,str
+50,Dazzle,all
+51,Clockwerk,str
+52,Leshrac,int
+53,Nature's Prophet,all
+54,Lifestealer,str
+55,Dark Seer,int
+56,Clinkz,agi
+57,Omniknight,str
+58,Enchantress,int
+59,Huskar,str
+60,Night Stalker,str
+61,Broodmother,agi
+62,Bounty Hunter,agi
+63,Weaver,agi
+64,Jakiro,int
+65,Batrider,all
+66,Chen,int
+67,Spectre,agi
+68,Ancient Apparition,int
+69,Doom,str
+70,Ursa,agi
+71,Spirit Breaker,str
+72,Gyrocopter,agi
+73,Alchemist,str
+74,Invoker,int
+75,Silencer,int
+76,Outworld Destroyer,int
+77,Lycan,str
+78,Brewmaster,all
+79,Shadow Demon,int
+80,Lone Druid,agi
+81,Chaos Knight,str
+82,Meepo,agi
+83,Treant Protector,str
+84,Ogre Magi,str
+85,Undying,str
+86,Rubick,int
+87,Disruptor,int
+88,Nyx Assassin,all
+89,Naga Siren,agi
+90,Keeper of the Light,int
+91,Io,all
+92,Visage,all
+93,Slark,agi
+94,Medusa,agi
+95,Troll Warlord,agi
+96,Centaur Warrunner,str
+97,Magnus,all
+98,Timbersaw,str
+99,Bristleback,str
+100,Tusk,str
+101,Skywrath Mage,int
+102,Abaddon,all
+103,Elder Titan,str
+104,Legion Commander,str
+105,Techies,all
+106,Ember Spirit,agi
+107,Earth Spirit,str
+108,Underlord,str
+109,Terrorblade,agi
+110,Phoenix,str
+111,Oracle,int
+112,Winter Wyvern,int
+113,Arc Warden,all
+114,Monkey King,agi
+119,Dark Willow,int
+120,Pangolier,all
+121,Grimstroke,int
+123,Hoodwink,agi
+126,Void Spirit,all
+128,Snapfire,all
+129,Mars,str
+131,Ringmaster,int
+135,Dawnbreaker,str
+136,Marci,all
+137,Primal Beast,str
+138,Muerta,int
+145,Kez,agi
+155,Largo,str
